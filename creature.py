@@ -6,7 +6,7 @@ from filler_creatures import creatures, abilities
 
 logging.basicConfig(level=logging.DEBUG)
 
-
+ # Sometimes I dream about cheese
 class Ability(Document):
     name = StringField(required=True, unique=True)
     effect_stat = IntField()
